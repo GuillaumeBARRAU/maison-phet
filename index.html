@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maison Phet — Cuisine Thaï & Vietnamienne à domicile</title>
+  <meta name="description" content="Chef à domicile spécialisée en cuisine thaïlandaise et vietnamienne. Réservez votre soirée pour 6 à 20 personnes en Rhône-Alpes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/css/main.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav" id="nav">
+    <a href="/" class="nav-logo">Maison <span>Phet</span></a>
+    <button class="nav-toggle" aria-label="Menu" id="nav-toggle">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#menus">Menus</a>
+      <a href="blog.html">Blog</a>
+      <a href="#about">À propos</a>
+      <a href="#reservation" class="btn-nav">Réserver</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Cuisine à domicile · Thaï &amp; Vietnamien</p>
+      <h1>La saveur<br>de l'<em>Asie</em><br>chez vous</h1>
+      <p class="hero-sub">Je me déplace dans votre maison pour cuisiner un repas authentique thaïlandais ou vietnamien pour votre groupe, de 6 à 20 personnes en Rhône-Alpes.</p>
+      <div class="hero-actions">
+        <a href="#reservation" class="btn-primary">Réserver une date</a>
+        <a href="#menus" class="btn-ghost">Voir les menus</a>
+      </div>
+    </div>
+    <div class="hero-deco" aria-hidden="true">味</div>
+  </section>
+
+  <!-- STRIP -->
+  <div class="strip">
+    <span>Ingrédients frais du marché</span>
+    <span class="dot">·</span>
+    <span>Cuisine à domicile</span>
+    <span class="dot">·</span>
+    <span>6 à 20 personnes</span>
+    <span class="dot">·</span>
+    <span>Rhône-Alpes</span>
+  </div>
+
+  <!-- MENUS -->
+  <section class="section" id="menus">
+    <div class="container">
+      <p class="section-label">Nos formules</p>
+      <h2 class="section-title">Menus signature</h2>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="thai">🇹🇭 Thaïlandais</button>
+        <button class="filter-btn" data-filter="viet">🇻🇳 Vietnamien</button>
+      </div>
+
+      <div class="menus-grid" id="menus-grid">
+
+        <article class="menu-card" data-type="thai">
+          <div class="menu-icon">🍜</div>
+          <div class="menu-header">
+            <span class="badge badge-thai">Thaïlandais</span>
+            <strong class="menu-price">38€<span>/pers</span></strong>
+          </div>
+          <h3>Soirée Bangkok</h3>
+          <p>Tom Kha Gai · Pad Thaï · Curry vert · Riz jasmin · Mango sticky rice</p>
+          <a href="#reservation" class="menu-cta">Réserver ce menu</a>
+        </article>
+
+        <article class="menu-card" data-type="viet">
+          <div class="menu-icon">🍵</div>
+          <div class="menu-header">
+            <span class="badge badge-viet">Vietnamien</span>
+            <strong class="menu-price">35€<span>/pers</span></strong>
+          </div>
+          <h3>Saïgon Express</h3>
+          <p>Rouleaux de printemps · Pho Bo · Bún bò Huế · Bánh mì · Chè</p>
+          <a href="#reservation" class="menu-cta">Réserver ce menu</a>
+        </article>
+
+        <article class="menu-card featured" data-type="thai">
+          <div class="menu-badge-top">⭐ Populaire</div>
+          <div class="menu-icon">🌶️</div>
+          <div class="menu-header">
+            <span class="badge badge-thai">Thaïlandais</span>
+            <strong class="menu-price">45€<span>/pers</span></strong>
+          </div>
+          <h3>Prestige Chiang Mai</h3>
+          <p>Massaman lamb · Khao Soi · Satay · Papaye verte · Dessert coco</p>
+          <a href="#reservation" class="menu-cta">Réserver ce menu</a>
+        </article>
+
+        <article class="menu-card" data-type="viet">
+          <div class="menu-icon">🥗</div>
+          <div class="menu-header">
+            <span class="badge badge-viet">Vietnamien</span>
+            <strong class="menu-price">42€<span>/pers</span></strong>
+          </div>
+          <h3>Hanoi Gourmet</h3>
+          <p>Nem · Bò bía · Cá kho tộ · Gỏi cuốn · Bánh flan caramel</p>
+          <a href="#reservation" class="menu-cta">Réserver ce menu</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <p class="section-label">À propos</p>
+        <h2 class="section-title">Une cuisinière passionnée</h2>
+        <p>Née en Thaïlande, installée en Rhône-Alpes depuis 15 ans, je cuisine depuis toujours pour ma famille et mes amis. Aujourd'hui, je partage ces recettes authentiques — transmises de génération en génération — directement chez vous.</p>
+        <p style="margin-top:1rem">Chaque repas est préparé avec des ingrédients frais sourcés au marché local et des épices importées directement de Bangkok et Hanoï.</p>
+        <a href="blog.html" class="btn-primary" style="display:inline-block;margin-top:1.5rem">Lire le blog</a>
+      </div>
+      <div class="about-stats">
+        <div class="stat"><strong>+200</strong><span>repas préparés</span></div>
+        <div class="stat"><strong>15 ans</strong><span>de passion</span></div>
+        <div class="stat"><strong>4.9★</strong><span>avis clients</span></div>
+        <div class="stat"><strong>2 pays</strong><span>de cuisine</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVATION -->
+  <section class="reservation" id="reservation">
+    <div class="container">
+      <p class="section-label light">Réservation</p>
+      <h2 class="section-title light">Réservez votre soirée</h2>
+      <p class="res-sub">Remplissez le formulaire — je vous confirme la disponibilité sous 24h.</p>
+
+      <form
+        class="res-form"
+        action="https://formspree.io/f/VOTRE_ID_FORMSPREE"
+        method="POST"
+        id="reservation-form"
+      >
+        <div class="form-row">
+          <div class="form-field">
+            <label for="prenom">Prénom *</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Sophie" required />
+          </div>
+          <div class="form-field">
+            <label for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" placeholder="Martin" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="sophie@email.com" required />
+          </div>
+          <div class="form-field">
+            <label for="tel">Téléphone</label>
+            <input type="tel" id="tel" name="telephone" placeholder="06 12 34 56 78" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <label for="date">Date souhaitée *</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="form-field">
+            <label for="personnes">Nombre de personnes *</label>
+            <select id="personnes" name="personnes" required>
+              <option value="">Choisir...</option>
+              <option value="6-10">6 à 10 personnes</option>
+              <option value="10-15">10 à 15 personnes</option>
+              <option value="15-20">15 à 20 personnes</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="menu">Menu souhaité *</label>
+          <select id="menu" name="menu" required>
+            <option value="">Choisir un menu...</option>
+            <option value="bangkok">Soirée Bangkok — Thaïlandais 38€/pers</option>
+            <option value="saigon">Saïgon Express — Vietnamien 35€/pers</option>
+            <option value="chiangmai">Prestige Chiang Mai — Thaïlandais 45€/pers</option>
+            <option value="hanoi">Hanoi Gourmet — Vietnamien 42€/pers</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Message / Allergies / Adresse</label>
+          <textarea id="message" name="message" rows="4" placeholder="Indiquez votre adresse, allergies éventuelles ou toute demande particulière..."></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="Nouvelle réservation — Maison Phet" />
+        <input type="hidden" name="_next" value="https://aidezmoi.online/?merci=1" />
+        <button type="submit" class="btn-reserve" id="submit-btn">
+          Envoyer ma demande
+        </button>
+        <p class="form-note">* Champs obligatoires · Réponse garantie sous 24h</p>
+      </form>
+
+      <div class="form-success" id="form-success" style="display:none">
+        <div class="success-icon">✓</div>
+        <h3>Demande envoyée !</h3>
+        <p>Merci ! Je vous répondrai sous 24h pour confirmer votre soirée.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <p class="section-label">Ils en parlent</p>
+      <h2 class="section-title">Avis clients</h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Une soirée inoubliable — les saveurs étaient authentiques, le service impeccable. Toute notre équipe a adoré !"</p>
+          <cite>— Marie T., soirée entreprise · 14 personnes</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Le Pad Thaï était exactement comme à Bangkok. Nos invités ont été bluffés. On renouvelle sans hésiter !"</p>
+          <cite>— Pierre &amp; Léa G., anniversaire · 10 personnes</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>"Organisation parfaite, ingrédients frais, et une générosité rare. Le menu Hanoi Gourmet est une merveille."</p>
+          <cite>— Famille Rousseau, repas familial · 18 personnes</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG PREVIEW -->
+  <section class="section blog-preview">
+    <div class="container">
+      <p class="section-label">Le blog</p>
+      <h2 class="section-title">Recettes &amp; coulisses</h2>
+      <div class="blog-grid">
+        <a href="blog/curry-vert.html" class="blog-card">
+          <div class="blog-img thai-bg">🥥</div>
+          <div class="blog-card-body">
+            <span class="blog-tag thai-tag">Thaïlandais</span>
+            <h3>Le secret d'un vrai curry vert</h3>
+            <p>La pâte de curry maison change tout. Voici ma recette transmise par ma grand-mère.</p>
+          </div>
+        </a>
+        <a href="blog/bouillon-pho.html" class="blog-card">
+          <div class="blog-img viet-bg">🫙</div>
+          <div class="blog-card-body">
+            <span class="blog-tag viet-tag">Vietnamien</span>
+            <h3>Préparer un bouillon de Pho en 4h</h3>
+            <p>Le temps est l'ingrédient principal. Patience et épices grillées font la magie.</p>
+          </div>
+        </a>
+        <a href="blog/epices.html" class="blog-card">
+          <div class="blog-img spice-bg">🌿</div>
+          <div class="blog-card-body">
+            <span class="blog-tag spice-tag">Épices</span>
+            <h3>Galanga, citron kaffir &amp; coriandre</h3>
+            <p>Comment reconnaître et utiliser les épices essentielles de la cuisine asiatique.</p>
+          </div>
+        </a>
+      </div>
+      <div style="text-align:center;margin-top:2rem">
+        <a href="blog.html" class="btn-primary">Voir tous les articles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Maison <span>Phet</span></div>
+        <p>Cuisine thaïlandaise &amp; vietnamienne à domicile · Rhône-Alpes</p>
+      </div>
+      <div class="footer-links">
+        <a href="#menus">Menus</a>
+        <a href="blog.html">Blog</a>
+        <a href="#reservation">Réserver</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+      <div class="footer-contact">
+        <p>contact@aidezmoi.online</p>
+        <p>Rhône-Alpes, France</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Maison Phet · Site réalisé avec ❤️ · <a href="https://aidezmoi.online">aidezmoi.online</a></p>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
