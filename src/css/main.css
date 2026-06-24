@@ -155,7 +155,13 @@ body {
 /* ---- HERO ---- */
 .hero {
   min-height: 100vh;
-  background: var(--noir);
+  background: 
+    linear-gradient(
+      to right,
+      rgba(26, 26, 26, 0.92) 45%,
+      rgba(26, 26, 26, 0.4) 100%
+    ),
+    url('/src/assets/hero.png') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 120px 32px 80px;
